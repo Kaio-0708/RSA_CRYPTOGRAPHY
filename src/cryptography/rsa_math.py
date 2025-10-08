@@ -1,5 +1,5 @@
 #Estrutura baseada no RSA matemático puro, criptografa e decripta uma mensagem numérica m.
-from number_theory import mod_exp, mod_inv, bezout, gcd, phi_euller
+from .number_theory import mod_exp, mod_inv, bezout, gcd, phi_euller
 import random
 
 def escolher_e(phi_euller):
@@ -15,6 +15,9 @@ def rsa_math(p, q, m):
     d = mod_inv(e, phi)
     criptografar = mod_exp(m, e, n)
     decriptografar = mod_exp(criptografar, d, n)
+
+    if decriptografar != m:
+        raise ValueError("Falha na descriptografia")
 
     return {
     "n": n,

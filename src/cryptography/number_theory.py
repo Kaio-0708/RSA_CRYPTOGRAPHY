@@ -1,5 +1,4 @@
 # Optei por implementar todas as funções manualmente em vez de importar de biblioteca. 
-
 def mod_exp(a, b, n):
     result = 1
     a = a % n
