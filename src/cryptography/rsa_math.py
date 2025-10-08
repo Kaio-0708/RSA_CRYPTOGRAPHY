@@ -1,5 +1,5 @@
 #Estrutura baseada no RSA matemático puro, criptografa e decripta uma mensagem numérica m.
-from .number_theory import mod_exp, mod_inv, bezout, gcd, phi_euller
+from .number_theory import mod_exp, mod_inv, gcd, phi_euller
 import random
 
 def escolher_e(phi_euller):

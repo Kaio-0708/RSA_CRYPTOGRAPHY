@@ -1,3 +1,4 @@
+from .cli.rsa_math_cli import executar_rsa_math
 
 def main ():
     while True:
