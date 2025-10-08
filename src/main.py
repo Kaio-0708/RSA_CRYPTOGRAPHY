@@ -1,4 +1,5 @@
 from .cli.rsa_math_cli import executar_rsa_math
+from .cli.rsa_texto_cli import executar_rsa_texto
 
 def main ():
     while True:
