@@ -1,5 +1,5 @@
 #Estrutura baseada no RSA Padding, pois é mais seguro e próximo do uso real do RSA. Porém, aplicando de forma para aprendizado.
-from .number_theory import mod_exp, mod_inv, phi_euller, gcd
+from .number_theory import mod_exp, mod_inv, phi_euller
 from .rsa_math import escolher_e
 from ..Utils.message_blocks import dividir_blocos, remover_padding
 from ..Utils.text_encoding import converter_str_bytes, bytes_para_int, int_para_bytes

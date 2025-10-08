@@ -21,3 +21,17 @@ def int_para_bytes(n, tamanho):
     
     bytes_lista.reverse()
     return bytes(bytes_lista)
+
+def texto_para_numero(texto):
+    m = 0
+    for b in texto.encode("utf-8"):
+        m = m *  256 + b
+    return m
+
+def numero_para_texto(m):
+    bytes_listas = []
+    while m > 0:
+        bytes_listas.append(m % 256)
+        m //= 256
+    bytes_listas.reverse()
+    return bytes(bytes_listas).decode("utf-8")
