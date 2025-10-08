@@ -1,3 +1,4 @@
+# Estrutura meramente para aprendizado, no qual o "m" é uma mensagem de texto, sem padding. 
 from .number_theory import mod_exp, mod_inv, phi_euller
 from ..Utils.text_encoding import texto_para_numero, numero_para_texto
 from .rsa_math import escolher_e
