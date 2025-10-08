@@ -1,4 +1,5 @@
 #Estrutura baseada no RSA matemático puro, criptografa e decripta uma mensagem numérica m.
+# O valor de "e" é gerado aleatoriamente para garantir que seja válido e evitar erros caso o usuário escolha um valor incorreto.
 from cryptography.number_theory import mod_exp, mod_inv, gcd, phi_euller
 import random
 
