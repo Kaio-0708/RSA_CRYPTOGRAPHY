@@ -1,6 +1,6 @@
 # Ocorre verificações básicas para o RSA funcionar corretamente. o "m" não pode ser negativo, nem maior que n. Assim como o "p" e "q" não podem ser iguais. 
-from ..cryptography.rsa_math import rsa_math
-from ..cryptography.primality import primo_miller_rabin
+from cryptography.rsa_math import rsa_math
+from cryptography.primality import primo_miller_rabin
 
 def executar_rsa_math():
     while True:
@@ -44,6 +44,8 @@ def executar_rsa_math():
     
     if resultado["mensagem"] == resultado["decriptografar"]:
         print("Verificação:  descriptografia bem-sucedida!")
+        print()
         
     else:
         print("Verificação: erro na descriptografia!")
+        print()

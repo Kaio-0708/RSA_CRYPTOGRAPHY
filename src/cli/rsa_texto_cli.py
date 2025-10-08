@@ -1,6 +1,6 @@
-from ..cryptography.primality import primo_miller_rabin
-from ..cryptography.rsa_com_texto import rsa_texto
-from ..Utils.text_encoding import texto_para_numero
+from cryptography.primality import primo_miller_rabin
+from cryptography.rsa_com_texto import rsa_texto
+from Utils.text_encoding import texto_para_numero
 
 def executar_rsa_texto():
     while True:
@@ -43,12 +43,14 @@ def executar_rsa_texto():
     print(f"Mensagem criptografada (número): {resultado['criptografar']}")
     print(f"Mensagem decriptografada (número): {resultado['decriptografar']}")
     print(f"Mensagem recuperada: {resultado['texto_d']}")
-    print(f"--- Detalhes da Conversão ---")
+    print(f" --- Detalhes da Conversão ---")
     print(f"Mensagem → Número: {texto_para_numero(resultado['mensagem'])}")
     print(f"Número → Mensagem: {resultado['texto_d']}")
     
     if resultado["mensagem"] == resultado["texto_d"]:
         print("Verificação:  descriptografia bem-sucedida!")
+        print()
         
     else:
         print("Verificação: erro na descriptografia!")
+        print()

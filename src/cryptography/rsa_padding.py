@@ -1,8 +1,8 @@
 #Estrutura baseada no RSA Padding, pois é mais seguro e próximo do uso real do RSA. Porém, aplicando de forma para aprendizado.
-from .number_theory import mod_exp, mod_inv, phi_euller
-from .rsa_math import escolher_e
-from ..Utils.message_blocks import dividir_blocos, remover_padding
-from ..Utils.text_encoding import converter_str_bytes, bytes_para_int, int_para_bytes
+from cryptography.number_theory import mod_exp, mod_inv, phi_euller
+from cryptography.rsa_math import escolher_e
+from Utils.message_blocks import dividir_blocos, remover_padding
+from Utils.text_encoding import converter_str_bytes, bytes_para_int, int_para_bytes
 
 def rsa_padding(p, q, mensagem):
     n = p * q
@@ -32,8 +32,8 @@ def rsa_padding(p, q, mensagem):
     
     try:
         mensagem_decifrada = mensagem_recuperada.decode("utf-8")
-    except UnicodeDecodeError as e:
-        raise ValueError(f"Erro ao decodificar mensagem recuperada: {e}")
+    except UnicodeDecodeError as falha:
+        raise ValueError(f"Erro ao decodificar mensagem recuperada: {falha}")
 
     if mensagem_decifrada != mensagem:
         raise ValueError("A mensagem recuperada não coincide com a original")
@@ -46,5 +46,5 @@ def rsa_padding(p, q, mensagem):
         "mensagem_original": mensagem,
         "blocos_criptografados": blocos_criptografados,
         "blocos_decriptografados": blocos_decriptografados, 
-        "mensagem_decifrada": mensagem_recuperada.decode("utf-8", errors="ignore")
+        "mensagem_decifrada": mensagem_decifrada
     }

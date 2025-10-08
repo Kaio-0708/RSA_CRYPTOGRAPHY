@@ -1,9 +1,10 @@
-from .cli.rsa_math_cli import executar_rsa_math
-from .cli.rsa_texto_cli import executar_rsa_texto
+from cli.rsa_math_cli import executar_rsa_math
+from cli.rsa_texto_cli import executar_rsa_texto
+from cli.rsa_padding_cli import executar_rsa_padding
 
 def main ():
     while True:
-        print = ("""Escolha uma opção:
+        print("""Escolha uma opção:
     1 - RSA matemático
     2 - RSA com texto
     3 - RSA com padding
@@ -26,3 +27,6 @@ def main ():
             break
         else:
             print("Opção inválida, selecione outro número.")
+            
+if __name__ == "__main__":
+    main()
