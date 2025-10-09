@@ -114,7 +114,7 @@ pytest -v
 <br>
 <img width="298" height="157" alt="image" src="https://github.com/user-attachments/assets/ec694949-70e6-4ced-a217-8eecdf03cc70" />
 <br>
-<img width="395" height="445" alt="image" src="https://github.com/user-attachments/assets/20aa2e6c-6649-455e-9749-fcc31885a8e9" />
+<img width="290" height="157" alt="image" src="https://github.com/user-attachments/assets/20aa2e6c-6649-455e-9749-fcc31885a8e9" />
 <br>
 
 ## Estrutura de Contribuição
