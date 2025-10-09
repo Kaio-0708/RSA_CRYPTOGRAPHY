@@ -1,8 +1,6 @@
 #  RSA Cryptography for Learning
 
-Uma implementação educacional completa do algoritmo RSA em Python, incluindo versão matemática, com texto sem padding e com padding, testes unitários abrangentes e interface de linha de comando.
-
-## Índice
+Uma implementação educacional completa do algoritmo RSA em Python, incluindo versão matemática, com texto sem padding e com padding, testes unitários abrangentes e interface de linha de comando, sendo desenvolvida com base nos conhecimentos adquiridos na disciplina **Fundamentos Matemáticos da Computação II (FMCC2)** da **UFCG**.
 
 - Visão Geral
 - Funcionalidades
