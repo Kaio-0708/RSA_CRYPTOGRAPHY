@@ -4,13 +4,13 @@ Uma implementação educacional completa do algoritmo RSA em Python, incluindo v
 
 ## Índice
 
-- [Visão Geral]
-- [Funcionalidades]
-- [Estrutura do Projeto]
-- [Instalação e Uso]
-- [Testes]
-- [Exemplos de Uso]
-- [Contribuição]
+- Visão Geral
+- Funcionalidades
+- Estrutura do Projeto
+- Instalação e Uso
+- Testes
+- Exemplos de Uso
+- Contribuição
 
 ## Visão Geral
 
@@ -71,7 +71,7 @@ Este projeto implementa o algoritmo RSA de criptografia de chave pública, demon
 └── README.md
 ```
 
-## 🚀 Instalação e Uso
+## Instalação e Uso
 
 ### Pré-requisitos
 - Python 3.10 ou superior
@@ -116,23 +116,23 @@ pytest -v
 
 ## Estrutura de Contribuição
 
-### Fork do projeto
+#### Fork do projeto
 
-### Branch para feature (git checkout -b feature/nova-funcionalidade)
+#### Branch para feature (git checkout -b feature/nova-funcionalidade)
 
-### Commit das mudanças (git commit -am 'Adiciona nova funcionalidade')
+#### Commit das mudanças (git commit -am 'Adiciona nova funcionalidade')
 
-### Push para o branch (git push origin feature/nova-funcionalidade)
+#### Push para o branch (git push origin feature/nova-funcionalidade)
 
-### Pull Request
+#### Pull Request
 
-##Limitações Conhecidas
+## Limitações Conhecidas
 
-### Performance: Para uso educacional, não otimizado para números extremamente grandes
+#### Performance: Para uso educacional, não otimizado para números extremamente grandes
 
-### Segurança: Implementação educacional, não para uso em produção
+#### Segurança: Implementação educacional, não para uso em produção
 
-### Tamanho de Chave: Requer primos suficientemente grandes para padding PKCS#1
+#### Tamanho de Chave: Requer primos suficientemente grandes para padding PKCS#1
 
 
 ## Autor
