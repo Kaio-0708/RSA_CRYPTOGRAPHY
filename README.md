@@ -110,6 +110,8 @@ pytest -v
 
 ### Exemplos de Uso
 <img width="290" height="157" alt="image" src="https://github.com/user-attachments/assets/39239899-d7dd-40a0-8649-8ad5f023b758" />
+<img width="290" height="157" alt="image" src="https://github.com/user-attachments/assets/5c523dfd-845a-447b-92a4-8608c5ea23cb" />
+
 
 ## Estrutura de Contribuição
 
