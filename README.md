@@ -43,6 +43,7 @@ Este projeto implementa o algoritmo RSA de criptografia de chave pública, demon
 
 ## Estrutura do Projeto
 
+```
 ├── src/
 │ ├── cryptography/
 │ │ ├── number_theory.py # Teoria fundamental dos números
@@ -68,6 +69,7 @@ Este projeto implementa o algoritmo RSA de criptografia de chave pública, demon
 │ └── main.py # Interface principal
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 Instalação e Uso
 
@@ -82,52 +84,55 @@ git clone https://github.com/Kaio-0708/RSA_CRYPTOGRAPHY.git
 cd RSA_CRYPTOGRAPHY
 ```
 ### Execução
-
+```
 # Execute o programa principal
 python src/main.py
-
+```
 ### Testes
 O projeto inclui uma suite abrangente de testes:
-
+````
 # Executar todos os testes
 pytest -v
+````
 
-Cobertura de Testes
- 24 testes implementados
+## Cobertura de Testes
+### 24 testes implementados
 
- Operações matemáticas (mod_exp, gcd, mod_inv, phi)
+### Operações matemáticas (mod_exp, gcd, mod_inv, phi)
 
- Primalidade (Miller-Rabin)
+### Primalidade (Miller-Rabin)
 
- Codificação (texto/bytes/números)
+### Codificação (texto/bytes/números)
 
- Padding e blocos (PKCS#1 v1.5)
+### Padding e blocos (PKCS#1 v1.5)
 
- Cenários de erro e validações
+### Cenários de erro e validações
 
-<img width="1104" height="648" alt="image" src="https://github.com/user-attachments/assets/d869ec26-be57-4d3c-937d-72345e98b089" />
+<img width="298" height="157" alt="image" src="https://github.com/user-attachments/assets/d869ec26-be57-4d3c-937d-72345e98b089" />
 
 
 ### Exemplos de Uso
 <img width="290" height="157" alt="image" src="https://github.com/user-attachments/assets/39239899-d7dd-40a0-8649-8ad5f023b758" />
 
-Estrutura de Contribuição
-Fork do projeto
+## Estrutura de Contribuição
 
-Branch para feature (git checkout -b feature/nova-funcionalidade)
+### Fork do projeto
 
-Commit das mudanças (git commit -am 'Adiciona nova funcionalidade')
+### Branch para feature (git checkout -b feature/nova-funcionalidade)
 
-Push para o branch (git push origin feature/nova-funcionalidade)
+### Commit das mudanças (git commit -am 'Adiciona nova funcionalidade')
 
-Pull Request
+### Push para o branch (git push origin feature/nova-funcionalidade)
 
-Limitações Conhecidas
-Performance: Para uso educacional, não otimizado para números extremamente grandes
+### Pull Request
 
-Segurança: Implementação educacional, não para uso em produção
+##Limitações Conhecidas
 
-Tamanho de Chave: Requer primos suficientemente grandes para padding PKCS#1
+### Performance: Para uso educacional, não otimizado para números extremamente grandes
+
+### Segurança: Implementação educacional, não para uso em produção
+
+### Tamanho de Chave: Requer primos suficientemente grandes para padding PKCS#1
 
 
 ## Autor
