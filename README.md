@@ -4,13 +4,13 @@ Uma implementação educacional completa do algoritmo RSA em Python, incluindo v
 
 ## Índice
 
-- [Visão Geral](#visão-geral)
-- [Funcionalidades](#funcionalidades)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação e Uso](#instalação-e-uso)
-- [Testes](#testes)
-- [Exemplos de Uso](#exemplos-de-uso)
-- [Contribuição](#contribuição)
+- [Visão Geral]
+- [Funcionalidades]
+- [Estrutura do Projeto]
+- [Instalação e Uso]
+- [Testes]
+- [Exemplos de Uso]
+- [Contribuição]
 
 ## Visão Geral
 
