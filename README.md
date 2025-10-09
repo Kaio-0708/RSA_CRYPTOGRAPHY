@@ -65,7 +65,6 @@ Este projeto implementa o algoritmo RSA de criptografia de chave pública, demon
 │ │ ├── rsa_texto_cli.py
 │ │ └── rsa_padding_cli.py
 │ └── main.py # Interface principal
-├── requirements.txt
 └── README.md
 ```
 
