@@ -107,11 +107,14 @@ pytest -v
 
 <img width="298" height="157" alt="image" src="https://github.com/user-attachments/assets/d869ec26-be57-4d3c-937d-72345e98b089" />
 
-
 ### Exemplos de Uso
 <img width="290" height="157" alt="image" src="https://github.com/user-attachments/assets/39239899-d7dd-40a0-8649-8ad5f023b758" />
+<br>
 <img width="290" height="157" alt="image" src="https://github.com/user-attachments/assets/5c523dfd-845a-447b-92a4-8608c5ea23cb" />
-
+<br>
+<img width="298" height="157" alt="image" src="https://github.com/user-attachments/assets/ec694949-70e6-4ced-a217-8eecdf03cc70" />
+<br>
+<img width="395" height="445" alt="image" src="https://github.com/user-attachments/assets/20aa2e6c-6649-455e-9749-fcc31885a8e9" />
 
 ## Estrutura de Contribuição
 
