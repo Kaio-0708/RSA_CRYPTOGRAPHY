@@ -26,5 +26,5 @@ def rsa_texto(p, q, mensagem):
     "mensagem": mensagem,
     "criptografar": c,
     "decriptografar": decrip,
-    "mensagem_recuperada": texto_d 
+    "texto_d": texto_d 
 }
