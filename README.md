@@ -1,4 +1,4 @@
-#  RSA Cryptography for learning
+#  RSA Cryptography for Learning
 
 Uma implementação educacional completa do algoritmo RSA em Python, incluindo versão matemática, com texto sem padding e com padding, testes unitários abrangentes e interface de linha de comando.
 
